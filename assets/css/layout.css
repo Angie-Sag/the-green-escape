@@ -1,18 +1,18 @@
-.logo img{
+.logo img {
     width: 100px;
     height: 100px;
-    border-radius: 100px;
+    border-radius: 100%;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color:lightyellow
+    background-color: lightyellow
 }
 
-.menu li{
+.menu li {
     display: inline-block;
     list-style-type: none;
     font-size: 18px;
@@ -20,12 +20,38 @@ header{
     margin-left: 20px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: black;
 }
 
+.page_footer {
+    border-top: 1px solid black;
+    padding: 2rem 1rem;
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
 
+.page_footer img {
+    width: 40px;
+    height: 40px;
+}
+ .foot_nav {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+ }
 
+ .foot_nav a{
+    text-decoration: none;
+    color: black; 
+ }
 
-  
+ .logofooter_entrep img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+ }
