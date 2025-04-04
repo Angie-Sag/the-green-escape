@@ -1,0 +1,31 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:lightyellow
+}
+
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+  
