@@ -1,57 +1,90 @@
-.logo img {
-    width: 100px;
-    height: 100px;
+.logo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
+    margin-top: 10px;
+}
+
+.logo_name {
+    text-align: center;
+    font-family: var(--title);
+    font-weight: bold;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: lightyellow
+    padding: 10px;
+    background-color: var(--secondary-color)
 }
 
 .menu li {
     display: inline-block;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 1em;
+    font-family: var(--title);
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
 }
 
 .menu a {
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
+}
+
+.banner {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    padding: 150px;
+    background-image: url("../images/photos/perigord-nature.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .page_footer {
     border-top: 1px solid black;
     padding: 2rem 1rem;
-    background-color: lightgreen;
-    color: black;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
     text-align: center;
     font-weight: bold;
 }
 
 .page_footer img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
- .foot_nav {
+
+.foot_nav {
     margin-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
- }
+}
 
- .foot_nav a{
+.foot_nav a {
     text-decoration: none;
-    color: black; 
- }
+    color: var(--text-color)
+}
 
- .logofooter_entrep img{
-    width: 100px;
-    height: 100px;
+.foot_nav a:hover {
+    text-decoration: underline;
+}
+
+.logofooter_entrep img {
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
-    
- }
+}
