@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Escape</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo_container">
+            <img class="logo" src="./assets/images/logo/logo-entreprise.png" alt="logo entreprise">
+            <p class="logo_name">The Green Escape</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="hebergements.html">Hébergements</a>
+                </li>
+                <li>
+                    <a href="a-propos.html">À propos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+        <h2>Sélectionner votre hébergement selon vos envies !</h2>
+            <form id="registration-form" class="form-container" method="post" action="form.php"
+            enctype="multipart/form-data">
+            <fieldset>
+                <legend>Votre séjour</legend>
+            <div class="champ">
+                <label for="type-hebergement">Choix hébergement :</label>
+                <select name="hebergement" id="type-hebergement">
+                    <option value="economique">économique</option>
+                    <option value="romantique">romantique</option>
+                    <option value="confort">confort</option>
+                    <option value="animaux-acceptes">animaux acceptés</option>
+                </select>
+            </div>
+
+            <div>
+                <p>
+                    <input class="btn5" type="submit" value="Valider" required>
+                </p>
+            </div>
+        </fieldset>
+    </section>
+
+    <section>
+        <h2>Nos logements :</h2>
+        <div class="container2">
+            <div class="box">
+                <h3>Cabane "Sylva" – dans les arbres</h3>
+                <img src="./assets/images/photos/cabane2.jpg" alt="photo cabane suspendue">
+                <ul>
+                    <li>Perchée à 5 mètres du sol, avec vue sur la vallée</li>
+                    <li>Terrasse suspendue avec hamac</li>
+                    <li>Capacité : 2 personnes</li>
+                    <li>Prix : 120€/nuit</li>
+                </ul>
+                <button class="btn6" type="button">En savoir plus</button>
+            </div>
+            <div class="box">
+                <h3>Roulotte "Bohème" – sur prairie fleurie</h3>
+                <img src="./assets/images/photos/roulotte2.jpg" alt="photo roulotte dans la foret">
+                <ul>
+                    <li>Ancienne roulotte restaurée avec charme</li>
+                    <li>Ambiance bois brut et tissus naturels</li>
+                    <li>Capacité : 2 à 3 personnes</li>
+                    <li>Prix : 95€/nuit</li>
+                </ul>
+                <button class="btn6" type="button">En savoir plus</button>
+            </div>
+            <div class="box">
+                <h3>Tiny House "Natura" – autonomie complète</h3>
+                <img src="./assets/images/photos/tyni-house2.jpg" alt="photo tyne house dans la foret">
+                <ul>
+                    <li>Habitat mobile tout équipé (eau de pluie, panneaux solaires)</li>
+                    <li>Idéale pour 2 adultes + 1 enfant</li>
+                    <li>Isolation écologique + poêle à bois</li>
+                    <li>Prix : 110€/nuit</li>
+                </ul>
+                <button class="btn6" type="button">En savoir plus</button>
+            </div>
+            <div class="box">
+                <h3>Tente suspendue "Lévitée" – immersion totale</h3>
+                <img src="./assets/images/photos/Tente2.jpeg" alt="photo tente dans la foret">
+                <ul>
+                    <li>Installée entre trois arbres centenaires</li>
+                    <li>Accès par une passerelle en bo</li>
+                    <li>Équipement minimaliste + kit bivouac confort</li>
+                    <li>Prix : 80€/nuit</li>
+                </ul>
+                <button class="btn6" type="button">En savoir plus</button>
+        </div>
+        </div>
+    
+    </section>
+
+
+    </main>
+
+    <footer class="page_footer">
+        <nav class="foot_nav">
+            <div class="footer-bloc">
+                <h2>Adresse :</h2>
+                <p>THE GREEN ESCAPE</p>
+                <p>150 route de la fôret</p>
+                <p>24310 Brantôme-en-Périgord</p>
+                <a href="tel:0215484845"><img src="./assets/images/logo/telephone.png" alt="logo telephone"></a>
+                <a href="mailto:thegreenescape@gmail.com"><img src="./assets/images/logo/email.png"
+                        alt="logo email"></a>
+
+            </div>
+
+            <div class="footer-bloc">
+                <h2>Suivez-nous!</h2>
+                <p class="logofooter_entrep">
+                    <img src="./assets/images/logo/logo-entreprise.png" alt="logo entreprise">
+                </p>
+                <a href="#"><img src="./assets/images/reseaux/instagram.png" alt="logo instagram"></a>
+                <a href="#"><img src="./assets/images/reseaux/facebook.png" alt="logo facebook"></a>
+                <a href="#"><img src="./assets/images/reseaux/twitter.png" alt="logo twitter"></a>
+            </div>
+
+            <div class="footer-bloc">
+                <h2>Informations complémentaires :</h2>
+                <p>
+                    <a href="#">Mentions légales</a>
+                </p>
+                <p>
+                    <a href="#">Politique de confidentialité</a>
+                </p>
+                <p>
+                    <a href="#">Informations pratiques</a>
+                </p>
+            </div>
+        </nav>
+
+    </footer>
+
+
+</body>
+
+</html>
