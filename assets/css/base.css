@@ -28,7 +28,8 @@ p {
 
 .btn1,
 .btn2,
-.btn3 {
+.btn3,
+.btn4 {
     background-color: var(--green);
     border: 2px solid black;
     border-radius: 10px;

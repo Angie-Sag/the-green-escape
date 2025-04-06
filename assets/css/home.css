@@ -9,4 +9,30 @@
     background-position: top;
 }
 
+fieldset{
+    background-color:var(--secondary-color);
+}
+
+legend{
+    font-weight: bold;
+}
+
+.champ{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 9px 10px 13px -1px rgba(0, 0, 0, 0.48);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
  

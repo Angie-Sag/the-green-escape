@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Escape</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo_container">
+            <img class="logo" src="./assets/images/logo/logo-entreprise.png" alt="logo entreprise">
+            <p class="logo_name">The Green Escape</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="hebergements.html">Hébergements</a>
+                </li>
+                <li>
+                    <a href="a-propos.html">À propos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Formulaire :</h2>
+        <form id="registration-form" class="form-container" method="post" action="form.php"
+            enctype="multipart/form-data">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+
+                <div class="champ">
+                    <label for="prénom">Prénom :*</label>
+                    <input type="text" id="prénom" name="prénom" autofocus required>
+                </div>
+
+                <div class="champ">
+                    <label for="nom">Nom :*</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div class="champ">
+                    <label for="email">Email :*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="champ">
+                    <label for="téléphone">Téléphone :*</label>
+                    <input text="tel" id="téléphone" name="téléphone">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre message</legend>
+
+                <div class="champ">
+                    <label for="sujet">Sujet :</label>
+                    <input type="text" id="sujet" name="sujet">
+                </div>
+
+                <div class="champ">
+                    <label for="commentaire">Message :</label>
+                    <textarea id="commentaire" name="commentaire" rows="5" cols="33">
+        </textarea>
+                </div>
+            </fieldset>
+
+            <div>
+                <p>
+                    <input class="btn4" type="submit" value="Envoyer" required>
+                </p>
+            </div>
+            </fieldset>
+        </form>
+
+
+        <h2>Situation géographique :</h2>
+        <p>
+            <img src="./assets/images/localisation/brantome.jpg" alt="carte geographique departement brantome">
+        </p>
+
+
+
+    </main>
+
+    <footer class="page_footer">
+        <nav class="foot_nav">
+            <div class="footer-bloc">
+                <h2>Adresse :</h2>
+                <p>THE GREEN ESCAPE</p>
+                <p>150 route de la fôret</p>
+                <p>24310 Brantôme-en-Périgord</p>
+                <a href="tel:0215484845"><img src="./assets/images/logo/telephone.png" alt="logo telephone"></a>
+                <a href="mailto:thegreenescape@gmail.com"><img src="./assets/images/logo/email.png"
+                        alt="logo email"></a>
+
+            </div>
+
+            <div class="footer-bloc">
+                <h2>Suivez-nous!</h2>
+                <p class="logofooter_entrep">
+                    <img src="./assets/images/logo/logo-entreprise.png" alt="logo entreprise">
+                </p>
+                <a href="#"><img src="./assets/images/reseaux/instagram.png" alt="logo instagram"></a>
+                <a href="#"><img src="./assets/images/reseaux/facebook.png" alt="logo facebook"></a>
+                <a href="#"><img src="./assets/images/reseaux/twitter.png" alt="logo twitter"></a>
+            </div>
+
+            <div class="footer-bloc">
+                <h2>Informations complémentaires :</h2>
+                <p>
+                    <a href="#">Mentions légales</a>
+                </p>
+                <p>
+                    <a href="#">Politique de confidentialité</a>
+                </p>
+                <p>
+                    <a href="#">Informations pratiques</a>
+                </p>
+            </div>
+        </nav>
+
+    </footer>
+
+
+</body>
+
+</html>
