@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Green Escape</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/layout.css">
-    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
@@ -44,62 +44,65 @@
     </header>
 
     <main>
-        <h2>Formulaire :</h2>
-        <form id="registration-form" class="form-container" method="post" action="form.php"
-            enctype="multipart/form-data">
-            <fieldset>
-                <legend>Vos coordonnées</legend>
+        <div class="form-map">
+            <div>
+                <h2>Formulaire:</h2>
+                <form id="registration-form" class="form-container" method="post" action="form.php"
+                    enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Vos coordonnées</legend>
 
-                <div class="champ">
-                    <label for="prénom">Prénom :*</label>
-                    <input type="text" id="prénom" name="prénom" autofocus required>
-                </div>
+                        <div class="champ">
+                            <label for="prénom">Prénom :*</label>
+                            <input type="text" id="prénom" name="prénom" autofocus required>
+                        </div>
 
-                <div class="champ">
-                    <label for="nom">Nom :*</label>
-                    <input type="text" id="nom" name="nom" required>
-                </div>
+                        <div class="champ">
+                            <label for="nom">Nom :*</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
 
-                <div class="champ">
-                    <label for="email">Email :*</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
+                        <div class="champ">
+                            <label for="email">Email :*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
 
-                <div class="champ">
-                    <label for="téléphone">Téléphone :*</label>
-                    <input text="tel" id="téléphone" name="téléphone">
-                </div>
-            </fieldset>
+                        <div class="champ">
+                            <label for="téléphone">Téléphone :*</label>
+                            <input text="tel" id="téléphone" name="téléphone">
+                        </div>
+                    </fieldset>
 
-            <fieldset>
-                <legend>Votre message</legend>
+                    <fieldset>
+                        <legend>Votre message</legend>
 
-                <div class="champ">
-                    <label for="sujet">Sujet :</label>
-                    <input type="text" id="sujet" name="sujet">
-                </div>
+                        <div class="champ">
+                            <label for="sujet">Sujet :</label>
+                            <input type="text" id="sujet" name="sujet">
+                        </div>
 
-                <div class="champ">
-                    <label for="commentaire">Message :</label>
-                    <textarea id="commentaire" name="commentaire" rows="5" cols="33">
-        </textarea>
-                </div>
-            </fieldset>
+                        <div class="champ">
+                            <label for="commentaire">Message :</label>
+                            <textarea id="commentaire" name="commentaire" rows="5" cols="33"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <div>
+                        <p>
+                            <input class="btn" type="submit" value="Envoyer" required>
+                        </p>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
 
             <div>
+                <h2>Situation géographique:</h2>
                 <p>
-                    <input class="btn4" type="submit" value="Envoyer" required>
+                    <img src="./assets/images/localisation/brantome.jpg" alt="carte geographique departement brantome">
                 </p>
             </div>
-            </fieldset>
-        </form>
-
-
-        <h2>Situation géographique :</h2>
-        <p>
-            <img src="./assets/images/localisation/brantome.jpg" alt="carte geographique departement brantome">
-        </p>
-
+        </div>
 
 
     </main>

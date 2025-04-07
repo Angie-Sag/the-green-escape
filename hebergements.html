@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Green Escape</title>
+    <title>hebergements</title>
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/layout.css">
-    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/hebergements.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
@@ -45,79 +45,98 @@
 
     <main>
         <section>
-        <h2>Sélectionner votre hébergement selon vos envies !</h2>
+            <h2>Sélectionner votre hébergement selon vos envies !</h2>
             <form id="registration-form" class="form-container" method="post" action="form.php"
-            enctype="multipart/form-data">
-            <fieldset>
-                <legend>Votre séjour</legend>
-            <div class="champ">
-                <label for="type-hebergement">Choix hébergement :</label>
-                <select name="hebergement" id="type-hebergement">
-                    <option value="economique">économique</option>
-                    <option value="romantique">romantique</option>
-                    <option value="confort">confort</option>
-                    <option value="animaux-acceptes">animaux acceptés</option>
-                </select>
-            </div>
+                enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Votre séjour</legend>
+                    <div class="champ">
+                        <label for="type-hebergement">Choix hébergement :</label>
+                        <select name="hebergement" id="type-hebergement">
+                            <option value="economique">économique</option>
+                            <option value="romantique">romantique</option>
+                            <option value="confort">confort</option>
+                            <option value="animaux-acceptes">animaux acceptés</option>
+                        </select>
+                    </div>
 
-            <div>
-                <p>
-                    <input class="btn5" type="submit" value="Valider" required>
-                </p>
-            </div>
-        </fieldset>
-    </section>
+                    <div>
+                        <p>
+                            <input class="btn" type="submit" value="Valider" required>
+                        </p>
+                    </div>
+                </fieldset>
+        </section>
 
-    <section>
-        <h2>Nos logements :</h2>
-        <div class="container2">
-            <div class="box">
-                <h3>Cabane "Sylva" – dans les arbres</h3>
-                <img src="./assets/images/photos/cabane2.jpg" alt="photo cabane suspendue">
-                <ul>
-                    <li>Perchée à 5 mètres du sol, avec vue sur la vallée</li>
-                    <li>Terrasse suspendue avec hamac</li>
-                    <li>Capacité : 2 personnes</li>
-                    <li>Prix : 120€/nuit</li>
-                </ul>
-                <button class="btn6" type="button">En savoir plus</button>
-            </div>
-            <div class="box">
-                <h3>Roulotte "Bohème" – sur prairie fleurie</h3>
-                <img src="./assets/images/photos/roulotte2.jpg" alt="photo roulotte dans la foret">
-                <ul>
-                    <li>Ancienne roulotte restaurée avec charme</li>
-                    <li>Ambiance bois brut et tissus naturels</li>
-                    <li>Capacité : 2 à 3 personnes</li>
-                    <li>Prix : 95€/nuit</li>
-                </ul>
-                <button class="btn6" type="button">En savoir plus</button>
-            </div>
-            <div class="box">
-                <h3>Tiny House "Natura" – autonomie complète</h3>
-                <img src="./assets/images/photos/tyni-house2.jpg" alt="photo tyne house dans la foret">
-                <ul>
-                    <li>Habitat mobile tout équipé (eau de pluie, panneaux solaires)</li>
-                    <li>Idéale pour 2 adultes + 1 enfant</li>
-                    <li>Isolation écologique + poêle à bois</li>
-                    <li>Prix : 110€/nuit</li>
-                </ul>
-                <button class="btn6" type="button">En savoir plus</button>
-            </div>
-            <div class="box">
-                <h3>Tente suspendue "Lévitée" – immersion totale</h3>
-                <img src="./assets/images/photos/Tente2.jpeg" alt="photo tente dans la foret">
-                <ul>
-                    <li>Installée entre trois arbres centenaires</li>
-                    <li>Accès par une passerelle en bo</li>
-                    <li>Équipement minimaliste + kit bivouac confort</li>
-                    <li>Prix : 80€/nuit</li>
-                </ul>
-                <button class="btn6" type="button">En savoir plus</button>
-        </div>
-        </div>
-    
-    </section>
+        <section>
+            <h2>Nos logements :</h2>
+            <div class="container2">
+                <div class="box">
+
+                    <img src="./assets/images/photos/cabane2.jpg" alt="photo cabane suspendue">
+                    <div>
+                        <h3>Cabane "Sylva" – dans les arbres</h3>
+                        <ul>
+                            <li>Perchée à 5 mètres du sol, avec vue sur la vallée</li>
+                            <li>Terrasse suspendue avec hamac</li>
+                            <li>Capacité : 2 personnes</li>
+                            <li>Prix : 120€/nuit</li>
+                        </ul>
+                        <p>
+                            <button class="btn" type="button">En savoir plus</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+
+                    <img src="./assets/images/photos/roulotte2.jpg" alt="photo roulotte dans la foret">
+                    <div>
+                        <h3>Roulotte "Bohème" – sur prairie fleurie</h3>
+                        <ul>
+                            <li>Ancienne roulotte restaurée avec charme</li>
+                            <li>Ambiance bois brut et tissus naturels</li>
+                            <li>Capacité : 2 à 3 personnes</li>
+                            <li>Prix : 95€/nuit</li>
+                        </ul>
+                        <p>
+                            <button class="btn" type="button">En savoir plus</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+
+                    <img src="./assets/images/photos/tyni-house2.jpg" alt="photo tyne house dans la foret">
+                    <div>
+                        <h3>Tiny House "Natura" – autonomie complète</h3>
+                        <ul>
+                            <li>Habitat mobile tout équipé (eau de pluie, panneaux solaires)</li>
+                            <li>Idéale pour 2 adultes + 1 enfant</li>
+                            <li>Isolation écologique + poêle à bois</li>
+                            <li>Prix : 110€/nuit</li>
+                        </ul>
+                        <p>
+                        <button class="btn" type="button">En savoir plus</button>
+                    </p>
+                    </div>
+                </div>
+                <div class="box">
+
+                    <img src="./assets/images/photos/Tente2.jpeg" alt="photo tente dans la foret">
+                    <div>
+                        <h3>Tente suspendue "Lévitée" – immersion totale</h3>
+                        <ul>
+                            <li>Installée entre trois arbres centenaires</li>
+                            <li>Accès par une passerelle en bo</li>
+                            <li>Équipement minimaliste + kit bivouac confort</li>
+                            <li>Prix : 80€/nuit</li>
+                        </ul>
+                        <p>
+                        <button class="btn" type="button">En savoir plus</button>
+                    </p>
+                    </div>
+                </div>
+
+        </section>
 
 
     </main>

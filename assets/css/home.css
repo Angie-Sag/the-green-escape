@@ -1,12 +1,12 @@
-.banner2 {
+.banner-home {
     font-family: "Playfair Display", serif;
     font-size: 1.5em;
     text-align: center;
     color: white;
     padding: 150px;
-    background-image: url("../images/photos/equipe.jpg");
+    background-image: url("../images/photos/perigord-nature.png");
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 fieldset{
@@ -23,3 +23,29 @@ legend{
     flex-direction: column;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 150px;
+    text-align: center;
+}
+
+
+
+.avis-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+
+}
+
+.rating img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
