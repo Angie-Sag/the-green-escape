@@ -11,7 +11,7 @@ body {
     background-color: var(--color-page);
     color: var(--text-color);
     font-family: var(--text-font);
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 
@@ -19,10 +19,12 @@ h2,
 h3 {
     font-family: var(--title);
     color: var(--green);
+    font-weight: bold;
 }
 
 p {
     font-family: var(--text-font);
+    font-size: 1.5rem;
     margin: 50px;
 }
 
@@ -33,7 +35,7 @@ p {
     box-shadow: 6px 6px 15px rgb(29, 49, 63);
     text-decoration: none;
     color: var(--text-color);
-    font-size: 1em;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 10px;
     text-align: center;
@@ -59,9 +61,15 @@ p {
 
 
 legend{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
  
 .burger{
     display: none;
+}
+
+@media (min-width: 768px) {
+    .burger {
+      display: none;
+    }
 }
